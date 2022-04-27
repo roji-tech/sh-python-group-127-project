@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sh-react-group-73-capstone-project/static/css/main.517d8bb4.css",
+    "main.js": "/sh-react-group-73-capstone-project/static/js/main.e8fb7c32.js",
+    "static/js/787.c8de6e26.chunk.js": "/sh-react-group-73-capstone-project/static/js/787.c8de6e26.chunk.js",
+    "index.html": "/sh-react-group-73-capstone-project/index.html",
+    "main.517d8bb4.css.map": "/sh-react-group-73-capstone-project/static/css/main.517d8bb4.css.map",
+    "main.e8fb7c32.js.map": "/sh-react-group-73-capstone-project/static/js/main.e8fb7c32.js.map",
+    "787.c8de6e26.chunk.js.map": "/sh-react-group-73-capstone-project/static/js/787.c8de6e26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.517d8bb4.css",
+    "static/js/main.e8fb7c32.js"
+  ]
+}
