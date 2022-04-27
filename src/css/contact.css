@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contact-section {
+	/* background-color: #333; */
+	background-color: var(--header-color);
+	padding: 1rem 2rem;
+	color: rgb(228, 228, 228);
+	color: black;
+	font-family: sans-serif;
+}
+.contact-title {
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 25px;
+	color: #0067cf;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.row-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.col-2 {
+	padding: 20px;
+	flex-basis: 50%;
+}
+
+.address-icon {
+	color: #0067cf;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.address-text {
+	text-align: center;
+	margin-bottom: 35px;
+	line-height: 20px;
+	padding: 0 30px;
+}
+.email {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.social-media-icon {
+	width: 30px;
+	height: 30px;
+	padding: 8px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #0067cf;
+	color: white;
+	border-radius: 50%;
+}
+.social-media {
+	width: 180px;
+	margin: 0 auto;
+}
+.contact-form {
+	width: 25rem;
+	background-color: rgb(41, 41, 41);
+	padding: 30px 20px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.contact-form .input {
+	width: 100%;
+	color: #dedede;
+	background: #313131;
+	outline: none;
+	border: none;
+	padding: 10px;
+	margin-bottom: 25px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.contact-form textarea {
+	resize: none;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+	/* -webkit-box-shadow: 0 0 0 30px #313131 inset; */
+	-webkit-text-fill-color: #dedede;
+}
+.contact-submit-btn {
+	color: rgb(255, 255, 255);
+	background: #004181;
+	outline: none;
+	border: none;
+	padding: 10px 20px;
+	margin-left: auto;
+	display: block;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+	.contact-section {
+		padding: 30px 10px;
+	}
+	.row {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		/* flex-wrap: ; */
+	}
+	.col-2 {
+		flex-basis: 100%;
+		width: 100%;
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	.contact-form {
+		width: 16.85rem;
+	}
+	.social-media {
+		margin-bottom: 20px;
+	}
+}

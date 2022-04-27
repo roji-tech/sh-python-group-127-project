@@ -1,0 +1,22 @@
+#banner-wrap {
+	background-color: var(--nav-bg-color);
+	width: 100%;
+	min-height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner {
+	margin: none;
+	border: none;
+	width: 100%;
+	min-height: 80vh;
+	position: absolute;
+	align-content: center;
+	background-image: url("/src/img/blueAcce.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top; 
+	opacity: 0.3;
+}

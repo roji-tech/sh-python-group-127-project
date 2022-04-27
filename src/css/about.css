@@ -1,0 +1,145 @@
+.texts {
+	padding: 30px;
+	line-height: 1.5em;
+	font-size: x-large;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.hello {
+	font-size: 50px;
+	font-style: oblique;
+	margin: 50px;
+}
+
+.about-global-wrap {
+	padding: 40px;
+	text-transform: capitalize;
+}
+
+#about-banner-wrap {
+	background-color: var(--nav-bg-color);
+	position: relative;
+	height: 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 60px;
+}
+
+#about-banner-wrap div {
+	margin: 50px;
+}
+
+#about-banner {
+	height: 20vw;
+	/* background-image: url(/src/img/bestlaptop.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right; */
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.5;
+	width: 100%;
+}
+
+#about-banner-h2 {
+	position: absolute;
+	z-index: 10;
+}
+
+#about-banner-h2 h2 {
+	color: var(--header-color);
+	font-size: 50px;
+	font-weight: 1000;
+	letter-spacing: 5px;
+	color: rgb(13, 186, 255);
+}
+
+.about-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#members-wrap h3 {
+	font-size: xx-large;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	margin: 40px;
+}
+
+.member {
+	margin: 5px;
+	padding: 8px;
+	text-align: center;
+}
+
+.card-img-top {
+	max-width: 250px;
+	max-height: 250px;
+	border: 5px solid rgb(0, 255, 234);
+	border-radius: 40px;
+}
+.card-title {
+	font-weight: 900;
+	font-size: x-large;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+.prodlist {
+	background-color: rgb(20, 35, 37);
+	color: aliceblue;
+	padding: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.about-prodlist {
+	list-style: none;
+	font-weight: 800;
+	line-height: 40px;
+	text-transform: capitalize;
+}
+.goal {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-style: oblique;
+	font-weight: 700;
+}
+
+.last-text {
+	font-weight: 1000;
+	font-size: x-large;
+	letter-spacing: 5px;
+}
+
+.about-contact {
+	color: aliceblue;
+	background-color: rgb(7, 32, 32);
+}
+
+#email {
+	font-size: large;
+	padding: 15px;
+	border: none;
+	border-radius: 50px 0px;
+	outline: none;
+	width: 80%;
+	margin: 5px;
+}
+
+#but {
+	margin: 10px;
+	padding: 10px;
+	background: coral;
+	color: white;
+	font-weight: 1000;
+	font-size: large;
+	height: 40px;
+	border: none;
+	border-radius: 40px;
+}
