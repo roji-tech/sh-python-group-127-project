@@ -1,19 +1,61 @@
+.about {
+	padding-top: 60px;
+	/* background-color: var(--body-color); */
+}
+
+.about-section {
+	display: flex;
+	flex-direction: row-reverse;
+	line-height: 0.8em;
+}
 .texts {
-	padding: 30px;
+	padding-top: 20px;
 	line-height: 1.5em;
-	font-size: x-large;
+	font-size: 20px;
 	font-family: "Times New Roman", Times, serif;
 }
 
-.hello {
-	font-size: 50px;
-	font-style: oblique;
+.who {
+	font-size: 40px;
+	line-height: 1em;
 	margin: 50px;
+	padding-top: -20px;
+}
+
+.texts h2 {
+	padding-top: 5px;
+	text-align: justify;
+}
+
+.texts p {
+	margin-top: 20px;
+	text-align: justify;
+	width: 70%;
+}
+
+.text-p {
+	text-align: justify;
+	margin-top: -20px;
+}
+
+.texts img {
+	width: fit-content;
+	margin: auto;
 }
 
 .about-global-wrap {
+	margin: auto;
+	max-width: 80%;
 	padding: 40px;
 	text-transform: capitalize;
+}
+
+.about-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 2rem;
+	justify-content: center;
+	align-items: center;
 }
 
 #about-banner-wrap {
@@ -58,21 +100,6 @@
 	color: rgb(13, 186, 255);
 }
 
-.about-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-	grid-gap: 2rem;
-	justify-content: center;
-	align-items: center;
-}
-
-#members-wrap h3 {
-	font-size: xx-large;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
-	margin: 40px;
-}
-
 .member {
 	margin: 5px;
 	padding: 8px;
@@ -85,12 +112,21 @@
 	border: 5px solid rgb(0, 255, 234);
 	border-radius: 40px;
 }
+
+#members-wrap h3 {
+	font-size: xx-large;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	margin: 40px;
+}
+
 .card-title {
 	font-weight: 900;
 	font-size: x-large;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
 }
+
 .prodlist {
 	background-color: rgb(20, 35, 37);
 	color: aliceblue;
@@ -98,12 +134,14 @@
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+
 .about-prodlist {
 	list-style: none;
 	font-weight: 800;
 	line-height: 40px;
 	text-transform: capitalize;
 }
+
 .goal {
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -120,6 +158,7 @@
 .about-contact {
 	color: aliceblue;
 	background-color: rgb(7, 32, 32);
+	padding: 25px;
 }
 
 #email {
@@ -142,4 +181,122 @@
 	height: 40px;
 	border: none;
 	border-radius: 40px;
+}
+
+@media (max-width: 1300px) {
+	/* .about-grid {
+		display: grid;
+		grid-template-columns: 200px 200px;
+		grid-row: auto auto;
+		grid-column-gap: 20px;
+		grid-row-gap: 20px;
+	} */
+
+	.about-section {
+		display: flex;
+		line-height: 0.7em;
+	}
+	.texts {
+		padding-top: 20px;
+		line-height: 1.5em;
+		font-size: 15px;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	.who {
+		font-size: 30px;
+		line-height: 1em;
+		margin: 50px;
+		padding-top: -20px;
+	}
+
+	.texts h2 {
+		padding-top: 5px;
+		text-align: justify;
+	}
+
+	.texts p {
+		margin-top: 20px;
+		text-align: justify;
+		width: 80%;
+	}
+	.card-img-top {
+		max-width: 150px;
+		max-height: 150px;
+		border: 5px solid rgb(0, 255, 234);
+		border-radius: 40px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.who {
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	.texts img {
+		width: 400px;
+		margin: auto;
+	}
+	.about-section {
+		display: block;
+	}
+	.about-global-wrap {
+		margin: auto;
+		max-width: 100%;
+	}
+	.texts p {
+		margin-top: 20px;
+		text-align: justify;
+		width: 100%;
+	}
+}
+
+@media (max-width: 700px) {
+	.about-section {
+		display: flex;
+		flex-direction: column;
+		line-height: 0.6em;
+	}
+	.texts {
+		padding-top: 20px;
+		line-height: 1.5em;
+		font-size: 17px;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	.who {
+		font-size: 30px;
+		line-height: 1em;
+		margin: 50px;
+		padding-top: -20px;
+	}
+
+	.texts h2 {
+		padding-top: 5px;
+		text-align: justify;
+		font-style: italic;
+	}
+
+	.texts p {
+		margin-top: 20px;
+		text-align: justify;
+		width: 80%;
+	}
+	.about-grid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.member {
+		margin: 5px;
+		padding: 8px;
+		text-align: center;
+	}
+
+	.card-img-top {
+		max-width: 250px;
+		max-height: 250px;
+		border: 5px solid rgb(0, 255, 234);
+		border-radius: 40px;
+	}
 }

@@ -1,37 +1,79 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body,
+input,
+textarea,
+button {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-		"Helvetica Neue", sans-serif;
+	color: var(--color-3);
+	font-family: "Nunito", sans-serif;
+
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
-}
 :root {
 	--body-color: rgb(228, 228, 228);
-	--header-color: rgb(141, 157, 250);
+	--header-color: rgb(5, 255, 255);;
 	--nav-bg-color: rgb(7, 32, 32);
-
-
-	text-align: center;
-	background-color: var(--header-color);
+	--color-1: rgb(255, 255, 255);
+	--color-2: rgb(0, 115, 255);
+	--color-3: #222;
+	--color-4: #666;
+	--footer: rgb(209, 209, 209);
+	--gray-bg: rgb(193, 193, 194);
 }
 
 a,
 a:focus {
 	text-decoration: none;
 	color: var(--header-color);
-  font-weight: 700;
+	font-weight: 700;
 }
 a:hover {
-	font-size: 17px;
-  font-weight: 1000;
-	color: aqua;
+	font-weight: 1000;
 }
+
+/* a:hover {
+  font-size: 17px;
+  font-weight: 1000;
+  color: aqua;
+} */
+
 a:focus {
 	color: var(--header-color);
+}
+.custom-title {
+	display: inline-block;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 900;
+	color: var(--color-3);
+	position: relative;
+	margin-bottom: 40px;
+}
+.custom-title span {
+	position: absolute;
+	width: 70%;
+	height: 3px;
+	border-radius: 2px;
+	left: 0;
+	bottom: -10px;
+	transform: translate();
+	background-color: var(--color-2);
+}
+#tasty {
+	font-family: "Satisfy", cursive;
+	font-size: 2.3rem;
+	color: var(--color-2);
+}
+
+@media screen and (max-width: 480px) {
+	.custom-title {
+		font-size: 1.6rem;
+	}
 }

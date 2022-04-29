@@ -33,17 +33,26 @@ const Contact = () => {
 
   return (
     <section className="contact-section">
-      <h1 className="contact-title">Contact Us</h1>
+      <h1 className="custom-title contact-title">
+        Contact Us <span></span>
+      </h1>
       <div className="row">
         <div className="col-2">
-          <FaAddressBook className="address-icon" />
-          <p className="address-text">
-            4500 Spring Avenue, Fort Washington, Pennsylvania
-          </p>
-          <FaPhoneAlt className="address-icon" />
-          <p className="address-text">267-693-9364</p>
-          <HiOutlineMail className="address-icon" />
-          <p className="email">example@email.com</p>
+          <div className="address-lists">
+            <FaAddressBook className="address-icon" />
+            <p className="address-text">
+              4500 Spring Avenue, Fort Washington, Pennsylvania
+            </p>
+          </div>
+          <div className="address-lists">
+            <FaPhoneAlt className="address-icon" />
+            <p className="address-text">267-693-9364</p>
+          </div>
+
+          <div className="address-lists">
+            <HiOutlineMail className="address-icon" />
+            <p className="email">example@email.com</p>
+          </div>
           <div className="row-2 social-media">
             <FaTwitter className="social-media-icon" />
             <FaFacebookF className="social-media-icon" />
@@ -101,6 +110,33 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+      <div className="texts about-contact">
+						<h3> Stay In Touch</h3>
+						<p>
+							Get 10% off your first purchase by joining our mailing
+							list, and receive some of the best deals possible..
+						</p>
+						<div className="about-form">
+							<form action="">
+								<div>
+									<input
+										type="email"
+										id="email"
+										name="email"
+										placeholder="Your Email... "
+									/>
+								</div>
+								<div className="but">
+									<button type="submit" id="but">
+										Subscribe
+									</button>
+								</div>
+							</form>
+						</div>
+
+						<p>If you need anything don't hesitate to contact us!</p>
+					</div>
     </section>
   );
 };

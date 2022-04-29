@@ -5,7 +5,9 @@ import '../css/product.css'
 
 const Product = ({num}) => {
   return (
-    <div>Product {num}</div>
+    <div>
+      
+    </div>
   )
 }
 

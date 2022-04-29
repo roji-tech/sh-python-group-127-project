@@ -2,36 +2,63 @@ import React from "react";
 
 import "../css/about.css";
 
-import imgs from "../img/lap2.jpeg";
+import res from "../img/restaurant.jpg";
+
+import imgs from "../img/no_image.jpg";
 
 const About = () => {
 	return (
 		<>
-			<div>
+			<div className="about">
 				<div id="about-banner-wrap">
-					<div id="about-banner"></div>
+					{/* <div id="about-banner"></div> */}
 					<div id="about-banner-h2">
 						<h2>ABOUT US</h2>
 					</div>
 				</div>
 				<div className="about-global-wrap">
-					<div className="texts">
-						<h3 className="hello">Hello Friends</h3>
-						<p>
-							Welcome to <b> RGP-73 Accessories Store</b> owned by a
-							Group of Marketers with the passion for Computer
-							Accessories.
+					<div className="about-section">
+						<div className="texts" id="text2">
+							<img src={res} alt="" />
+						</div>
+						<div className="texts">
+							<h4 className="who">Who We Are</h4>
+							<h2>
+								We are commited to providing the best customer service.
+							</h2>
+							<p>
+								In order to meet this promise, we are focused on
+								preparing the best quality of food and drinks to our
+								customers. We also offer the best take-out and food
+								delivery services.
+							</p>
+						</div>
+					</div>
+					<br />
+					<br />
+					<div>
+						<h4 className="who">About Us</h4>
+						<p className="text-p">
+							<b> Tasty Restaurant </b> is a restaurant designed around
+							the farmer's haul featuring a menu that changes daily with
+							a focus on seasonal and local cuisine. Our grains are
+							milled fresh for house made pasta, breads, and deserts,
+							whole animal butchery is done on site, and an extensive in
+							house fermentation program captures flavors at their peak
+							and preserves them for the off season. When you visit the
+							restaurant, check out our larder to see vinegars, and
+							brines bubbling away. <br></br>
+							There are two ways to dine with use. One is off the menu
+							which offers small plates, pastas and deserts, which are
+							all meant to be shared. In addition to our printed menu,
+							guests can also order directly off circulating carts that
+							stop by during their meal to try 'dim sum' bites. These
+							nightly specials will be described as tableside.
 						</p>
 					</div>
-					<div className="texts" id="text2">
-						<p>
-							We started <b> RGP-73 Accessories Store </b> with the idea
-							of being able to offer the very best ACCESSORIES with the
-							very best price to help our <b>Patronizers</b>
-						</p>
-					</div>
+					<br />
 					<div id="members-wrap">
-						<h3>Members</h3>
+						<h4 className="who">Members</h4>
 						<div className="about-grid">
 							<div class="member">
 								<img src={imgs} class="card-img-top" alt="Member" />
@@ -57,13 +84,6 @@ const About = () => {
 							<div class="member">
 								<img src={imgs} class="card-img-top" alt="Member" />
 								<div class="card-body">
-									<h5 class="card-title">Mendouksai</h5>
-									<p class="card-text">Back-End Developer.</p>
-								</div>
-							</div>
-							<div class="member">
-								<img src={imgs} class="card-img-top" alt="Member" />
-								<div class="card-body">
 									<h5 class="card-title">Buhari</h5>
 									<p class="card-text">Graphics Designer.</p>
 								</div>
@@ -82,56 +102,46 @@ const About = () => {
 									<p class="card-text">Marketing</p>
 								</div>
 							</div>
+							<div class="member">
+								<img src={imgs} class="card-img-top" alt="Member" />
+								<div class="card-body">
+									<h5 class="card-title">Muktar</h5>
+									<p class="card-text">Full Stack Developer</p>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					<div className="prodlist">
+					{/* <div className="prodlist">
 						<p>
-							<b> We are committed to:</b>
+							<b>
+								<em> We are committed to:</em>
+							</b>
 						</p>
+						<br />
 						<ol className="about-prodlist">
-							<li>Computer Accesories </li>
-							<li>focusing on finding you the best ACCESSORIES</li>
-							<li>
-								giving quality services and the best deals possible.
-							</li>
+							<li>Food Delivery. </li>
+							<li>finding you the best YUMMY.</li>
+							<li>giving quality services.</li>
+							<li>the best deals possible.</li>
 						</ol>
-					</div>
-					<div className="texts goal">
+					</div> */}
+					{/* <div className="texts goal">
 						<p>YOUR SATISFACTION IS OUR PRIORITY</p>
+						<hr />
 						<p>THE WORLD IS OUR COMMUNITY</p>
-					</div>
-					<div className="texts about-contact">
-						<h3> Stay In Touch</h3>
-						<p>
-							Get 10% off your first purchase by joining our mailing
-							list, and receive some of the best deals possible..
-						</p>
-						<div className="about-form">
-							<form action="">
-								<div>
-									<input
-										type="email"
-										id="email"
-										name="email"
-										placeholder="Your Email... "
-									/>
-								</div>
-								<div className="but">
-									<button type="submit" id="but">
-										Subscribe
-									</button>
-								</div>
-							</form>
-						</div>
+					</div> */}
 
-						<p>If you need anything don't hesitate to contact us!</p>
-					</div>
 					<div className="texts">
-						<p>All the best</p>
+						<p>
+							<em>All the best</em>
+						</p>
 					</div>
+					<br />
 					<div className="last-text">
-						<p>RGP-73 GROUP OF MARKETERS</p>
+						<p>
+							<b id="tasty"> Tasty </b> YUMMY FOOD Restaurant{" "}
+						</p>
 					</div>
 				</div>
 			</div>
