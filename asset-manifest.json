@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/sh-react-group-73-capstone-project/static/css/main.517d8bb4.css",
-    "main.js": "/sh-react-group-73-capstone-project/static/js/main.e8fb7c32.js",
+    "main.css": "/sh-react-group-73-capstone-project/static/css/main.add43092.css",
+    "main.js": "/sh-react-group-73-capstone-project/static/js/main.8acc50f2.js",
     "static/js/787.c8de6e26.chunk.js": "/sh-react-group-73-capstone-project/static/js/787.c8de6e26.chunk.js",
+    "static/media/no_image.jpg": "/sh-react-group-73-capstone-project/static/media/no_image.22d2aa4d1af1a092666a.jpg",
+    "static/media/banner.jpg": "/sh-react-group-73-capstone-project/static/media/banner.8af628d5edbf58ff4dc5.jpg",
+    "static/media/meal-7.jpg": "/sh-react-group-73-capstone-project/static/media/meal-7.f8b792658fdcfd2b55a4.jpg",
+    "static/media/meal-5.jpg": "/sh-react-group-73-capstone-project/static/media/meal-5.8967081225cdb0529f6e.jpg",
+    "static/media/meal-1.jpg": "/sh-react-group-73-capstone-project/static/media/meal-1.cd3dbcae4476ad86c4d8.jpg",
+    "static/media/meal-8.jpg": "/sh-react-group-73-capstone-project/static/media/meal-8.57f263554974995be1c3.jpg",
+    "static/media/meal-9.jpg": "/sh-react-group-73-capstone-project/static/media/meal-9.4e1d12eba88675cd01dc.jpg",
+    "static/media/meal-6.jpg": "/sh-react-group-73-capstone-project/static/media/meal-6.319e35446de277e2f5e5.jpg",
+    "static/media/meal-2.jpg": "/sh-react-group-73-capstone-project/static/media/meal-2.51bfa7c427da104a13cb.jpg",
+    "static/media/meal-4.jpg": "/sh-react-group-73-capstone-project/static/media/meal-4.bfb1f8bf86b2aa6281d5.jpg",
+    "static/media/restaurant.jpg": "/sh-react-group-73-capstone-project/static/media/restaurant.75cfbac9677069158f6c.jpg",
+    "static/media/meal-3.jpg": "/sh-react-group-73-capstone-project/static/media/meal-3.e6c83fa94100e4757c80.jpg",
+    "static/media/error.svg": "/sh-react-group-73-capstone-project/static/media/error.8dd8ec14977596642ed0073cef89dbd6.svg",
     "index.html": "/sh-react-group-73-capstone-project/index.html",
-    "main.517d8bb4.css.map": "/sh-react-group-73-capstone-project/static/css/main.517d8bb4.css.map",
-    "main.e8fb7c32.js.map": "/sh-react-group-73-capstone-project/static/js/main.e8fb7c32.js.map",
+    "main.add43092.css.map": "/sh-react-group-73-capstone-project/static/css/main.add43092.css.map",
+    "main.8acc50f2.js.map": "/sh-react-group-73-capstone-project/static/js/main.8acc50f2.js.map",
     "787.c8de6e26.chunk.js.map": "/sh-react-group-73-capstone-project/static/js/787.c8de6e26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.517d8bb4.css",
-    "static/js/main.e8fb7c32.js"
+    "static/css/main.add43092.css",
+    "static/js/main.8acc50f2.js"
   ]
 }
